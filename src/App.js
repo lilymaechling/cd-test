@@ -5,13 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="all">
-    <div className="dartCalLogo" style={{display: 'flex', flexDirection: 'row'}}>
+    <div className="dartCalLogo">
       DartCal
       <div><img width="80px" src={logo}/></div>
     </div>
     <div className="displaySignInInfoContainer">
       <div className="displaySignInInfo">
-        <div className="leftJustify" style={{ width: '100%' }}>
+        <div className="signInBox">
           <div className="prompt"> Username: </div>
             <input className="response" id="emailInputBar" placeholder="Username"  />
           <div className="prompt"> Password: </div>
