@@ -1,3 +1,65 @@
-div{
+.all{
   background-color:  #5C6784;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+}
+
+.dartCalLogo {
+  position: static;
+  top: 14.86%;
+  bottom: 14.86%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  
+  color: #C4C4C4;
+  
+}
+
+
+.displaySignInInfo{
+  position: absolute;
+  width: 449px;
+  height: 89px;
+}
+
+input{
+  background: #C4C4C4;
+  opacity: 0.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button{
+  position: absolute;
+  height: 47px;
+  left: 48.26%;
+  right: 40.62%;
+  top: 615px;
+
+  background: #1D263B;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+
+  position: absolute;
+  height: 24.1px;
+  left: 49.25%;
+  right: 41.61%;
+  top: 627.05px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #C4C4C4;
+
 }
