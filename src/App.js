@@ -7,13 +7,13 @@ function App() {
     <div className="all">
       <div className="dartCalLogo">
         DartCal
-        <div><img width="80px" src={logo}/></div>
+        <div className="scheduleLogo"><img width="90px" src={logo}/></div>
       </div>
-      <div className="signInBox">
+      <div className="signInBox1">
         <div className="prompt"> Username: </div>
         <input className="response" id="emailInputBar" placeholder="Username"  />
       </div>
-      <div className="signInBox">
+      <div className="signInBox2">
         <div className="prompt"> Password: </div>
         <input type="password" className="response" id="passwordInput" placeholder="Password"  />
       </div>
