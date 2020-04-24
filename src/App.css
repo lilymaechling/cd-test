@@ -32,20 +32,24 @@
   position: absolute;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 449px;
   height: 89px;
-  left: 496px;
-  top: 350px;
+  left: 30%;
+  right: 40%;
+  top: 50%;
 }
 
 .signInBox2{
   position: absolute;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 449px;
   height: 89px;
-  left: 496px;
-  top: 426px;
+  left: 30%;
+  right: 40%;
+  top: 60%;
 }
 
 .scheduleLogo{
@@ -98,8 +102,8 @@ input{
 button{
   position: absolute;
   height: 47px;
-  left: 48.26%;
-  right: 40.62%;
+  left: 40%;
+  right: 40%;
   top: 615px;
 
   background: #1D263B;
@@ -107,10 +111,10 @@ button{
   border-radius: 42px;
 
   position: absolute;
-  height: 24.1px;
+  height: 60px;
   left: 49.25%;
   right: 41.61%;
-  top: 627.05px;
+  top: 80%;
 
   font-family: Montserrat;
   font-style: normal;
